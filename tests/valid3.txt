@@ -1,0 +1,15 @@
+int rupees = 0;
+int roll = 1;
+for (roll = 1; roll <= 3; roll = roll + 1) {
+    switch (roll) {
+        case 1:
+            rupees = rupees + 50;
+            break;
+        case 2:
+            rupees = rupees + 100;
+            break;
+        default:
+            rupees = rupees + 10;
+            break;
+    }
+}

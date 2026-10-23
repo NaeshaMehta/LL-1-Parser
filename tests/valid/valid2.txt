@@ -1,0 +1,10 @@
+int km = 10;
+int fee = 50;
+while (km > 0) {
+    if (fee >= 100) {
+        fee = fee - 10;
+    } else {
+        fee = fee + 20;
+    }
+    km = km - 1;
+}

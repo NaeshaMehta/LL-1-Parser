@@ -1,0 +1,8 @@
+int marks = 80;
+switch (marks) {
+    case 80
+        marks = 100;
+        break;
+    default:
+        marks = 50;
+}

@@ -1,0 +1,2 @@
+int marks = 95;
+marks = 100;
